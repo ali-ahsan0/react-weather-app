@@ -28,7 +28,6 @@ const search = async () =>{
   const wind = document.getElementsByClassName("wind-rate");
   const temprature = document.getElementsByClassName("weather-temp");
   const location = document.getElementsByClassName("weather-location");
-debugger
   humidity[0].innerHTML = data.main.humidity;
   wind[0].innerHTML = data.wind.speed;
   temprature[0].innerHTML = data.main.temp;
