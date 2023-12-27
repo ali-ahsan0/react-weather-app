@@ -43,7 +43,7 @@ debugger
   return (
     <div className='container'>
       <div className='top-bar'>
-        <input type="text" className='cityInput' placeholder='Search' />
+        <input type="text" className='cityInput' placeholder='Search city' />
         <div className='search-icon' onClick={()=>{search()}}>
           <img src={search_icon} alt="" />
         </div>
